@@ -72,3 +72,14 @@ body {
 .loaded .header__status {
   opacity: 0;
 }
+
+/* Dark Mode OS*/
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--color-dark);
+  }
+  .header {
+    filter: invert(100%);
+  }
+}
